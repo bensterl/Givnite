@@ -1,1 +1,2 @@
 # Givnite
+Welcome to Givnite!
