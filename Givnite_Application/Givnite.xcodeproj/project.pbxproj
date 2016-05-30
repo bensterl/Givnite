@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		283DF0B91CFBEF99004C9868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DF0B81CFBEF99004C9868 /* Foundation.framework */; };
+		283DF0BB1CFBEF99004C9868 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DF0BA1CFBEF99004C9868 /* CoreGraphics.framework */; };
+		283DF0BD1CFBEF99004C9868 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DF0BC1CFBEF99004C9868 /* UIKit.framework */; };
+		283DF0C31CFBEF99004C9868 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0C11CFBEF99004C9868 /* InfoPlist.strings */; };
+		283DF0C51CFBEF99004C9868 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DF0C41CFBEF99004C9868 /* main.m */; };
+		283DF0C91CFBEF99004C9868 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DF0C81CFBEF99004C9868 /* AppDelegate.m */; };
+		283DF0CC1CFBEF9A004C9868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0CA1CFBEF9A004C9868 /* Main.storyboard */; };
+		283DF0CF1CFBEF9A004C9868 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DF0CE1CFBEF9A004C9868 /* ViewController.m */; };
+		283DF0D11CFBEF9A004C9868 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0D01CFBEF9A004C9868 /* Images.xcassets */; };
+		283DF0D81CFBEF9A004C9868 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DF0D71CFBEF9A004C9868 /* XCTest.framework */; };
+		283DF0D91CFBEF9A004C9868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DF0B81CFBEF99004C9868 /* Foundation.framework */; };
+		283DF0DA1CFBEF9A004C9868 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 283DF0BC1CFBEF99004C9868 /* UIKit.framework */; };
+		283DF0E21CFBEF9A004C9868 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0E01CFBEF9A004C9868 /* InfoPlist.strings */; };
+		283DF0E41CFBEF9A004C9868 /* GivniteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DF0E31CFBEF9A004C9868 /* GivniteTests.m */; };
+		283DF0F91CFC2133004C9868 /* Sign_In_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DF0F81CFC2133004C9868 /* Sign_In_VC.m */; };
+		283DF0FB1CFC2DB3004C9868 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0FA1CFC2DB3004C9868 /* Logo.png */; };
+		283DF0FE1CFC3026004C9868 /* Rectangle_51.png in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0FD1CFC3026004C9868 /* Rectangle_51.png */; };
+		283DF1001CFC3141004C9868 /* Group.png in Resources */ = {isa = PBXBuildFile; fileRef = 283DF0FF1CFC3141004C9868 /* Group.png */; };
+		283DF1021CFC32CC004C9868 /* Group_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 283DF1011CFC32CC004C9868 /* Group_2.png */; };
+		283DF1041CFC355A004C9868 /* Group_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 283DF1031CFC355A004C9868 /* Group_3.png */; };
+		283DF1071CFCB84F004C9868 /* Home_VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 283DF1061CFCB84F004C9868 /* Home_VC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		283DF0DB1CFBEF9A004C9868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 283DF0AD1CFBEF99004C9868 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283DF0B41CFBEF99004C9868;
+			remoteInfo = Givnite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		283DF0B51CFBEF99004C9868 /* Givnite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Givnite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		283DF0B81CFBEF99004C9868 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		283DF0BA1CFBEF99004C9868 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		283DF0BC1CFBEF99004C9868 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		283DF0C01CFBEF99004C9868 /* Givnite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Givnite-Info.plist"; sourceTree = "<group>"; };
+		283DF0C21CFBEF99004C9868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		283DF0C41CFBEF99004C9868 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		283DF0C61CFBEF99004C9868 /* Givnite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Givnite-Prefix.pch"; sourceTree = "<group>"; };
+		283DF0C71CFBEF99004C9868 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		283DF0C81CFBEF99004C9868 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		283DF0CB1CFBEF9A004C9868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		283DF0CD1CFBEF9A004C9868 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		283DF0CE1CFBEF9A004C9868 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		283DF0D01CFBEF9A004C9868 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		283DF0D61CFBEF9A004C9868 /* GivniteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GivniteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		283DF0D71CFBEF9A004C9868 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		283DF0DF1CFBEF9A004C9868 /* GivniteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GivniteTests-Info.plist"; sourceTree = "<group>"; };
+		283DF0E11CFBEF9A004C9868 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		283DF0E31CFBEF9A004C9868 /* GivniteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GivniteTests.m; sourceTree = "<group>"; };
+		283DF0F71CFC2133004C9868 /* Sign_In_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sign_In_VC.h; sourceTree = "<group>"; };
+		283DF0F81CFC2133004C9868 /* Sign_In_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sign_In_VC.m; sourceTree = "<group>"; };
+		283DF0FA1CFC2DB3004C9868 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Logo.png; path = ../../../Downloads/Logo.png; sourceTree = "<group>"; };
+		283DF0FD1CFC3026004C9868 /* Rectangle_51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rectangle_51.png; path = ../../../Downloads/Rectangle_51.png; sourceTree = "<group>"; };
+		283DF0FF1CFC3141004C9868 /* Group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group.png; path = ../../../Downloads/Group.png; sourceTree = "<group>"; };
+		283DF1011CFC32CC004C9868 /* Group_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group_2.png; path = ../../../Downloads/Group_2.png; sourceTree = "<group>"; };
+		283DF1031CFC355A004C9868 /* Group_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Group_3.png; path = ../../../Downloads/Group_3.png; sourceTree = "<group>"; };
+		283DF1051CFCB84F004C9868 /* Home_VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Home_VC.h; sourceTree = "<group>"; };
+		283DF1061CFCB84F004C9868 /* Home_VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Home_VC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		283DF0B21CFBEF99004C9868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DF0BB1CFBEF99004C9868 /* CoreGraphics.framework in Frameworks */,
+				283DF0BD1CFBEF99004C9868 /* UIKit.framework in Frameworks */,
+				283DF0B91CFBEF99004C9868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283DF0D31CFBEF9A004C9868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DF0D81CFBEF9A004C9868 /* XCTest.framework in Frameworks */,
+				283DF0DA1CFBEF9A004C9868 /* UIKit.framework in Frameworks */,
+				283DF0D91CFBEF9A004C9868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		283DF0AC1CFBEF99004C9868 = {
+			isa = PBXGroup;
+			children = (
+				283DF0BE1CFBEF99004C9868 /* Givnite */,
+				283DF0DD1CFBEF9A004C9868 /* GivniteTests */,
+				283DF0B71CFBEF99004C9868 /* Frameworks */,
+				283DF0B61CFBEF99004C9868 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		283DF0B61CFBEF99004C9868 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0B51CFBEF99004C9868 /* Givnite.app */,
+				283DF0D61CFBEF9A004C9868 /* GivniteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		283DF0B71CFBEF99004C9868 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0B81CFBEF99004C9868 /* Foundation.framework */,
+				283DF0BA1CFBEF99004C9868 /* CoreGraphics.framework */,
+				283DF0BC1CFBEF99004C9868 /* UIKit.framework */,
+				283DF0D71CFBEF9A004C9868 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		283DF0BE1CFBEF99004C9868 /* Givnite */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0EF1CFBEFF4004C9868 /* Images */,
+				283DF0C71CFBEF99004C9868 /* AppDelegate.h */,
+				283DF0C81CFBEF99004C9868 /* AppDelegate.m */,
+				283DF0CA1CFBEF9A004C9868 /* Main.storyboard */,
+				283DF0CD1CFBEF9A004C9868 /* ViewController.h */,
+				283DF0CE1CFBEF9A004C9868 /* ViewController.m */,
+				283DF0D01CFBEF9A004C9868 /* Images.xcassets */,
+				283DF0BF1CFBEF99004C9868 /* Supporting Files */,
+				283DF0F71CFC2133004C9868 /* Sign_In_VC.h */,
+				283DF0F81CFC2133004C9868 /* Sign_In_VC.m */,
+				283DF1051CFCB84F004C9868 /* Home_VC.h */,
+				283DF1061CFCB84F004C9868 /* Home_VC.m */,
+			);
+			path = Givnite;
+			sourceTree = "<group>";
+		};
+		283DF0BF1CFBEF99004C9868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0C01CFBEF99004C9868 /* Givnite-Info.plist */,
+				283DF0C11CFBEF99004C9868 /* InfoPlist.strings */,
+				283DF0C41CFBEF99004C9868 /* main.m */,
+				283DF0C61CFBEF99004C9868 /* Givnite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		283DF0DD1CFBEF9A004C9868 /* GivniteTests */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0E31CFBEF9A004C9868 /* GivniteTests.m */,
+				283DF0DE1CFBEF9A004C9868 /* Supporting Files */,
+			);
+			path = GivniteTests;
+			sourceTree = "<group>";
+		};
+		283DF0DE1CFBEF9A004C9868 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0DF1CFBEF9A004C9868 /* GivniteTests-Info.plist */,
+				283DF0E01CFBEF9A004C9868 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		283DF0EF1CFBEFF4004C9868 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0FC1CFC3003004C9868 /* Sign_In_Page */,
+				283DF0FA1CFC2DB3004C9868 /* Logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		283DF0FC1CFC3003004C9868 /* Sign_In_Page */ = {
+			isa = PBXGroup;
+			children = (
+				283DF0FF1CFC3141004C9868 /* Group.png */,
+				283DF1011CFC32CC004C9868 /* Group_2.png */,
+				283DF1031CFC355A004C9868 /* Group_3.png */,
+				283DF0FD1CFC3026004C9868 /* Rectangle_51.png */,
+			);
+			name = Sign_In_Page;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		283DF0B41CFBEF99004C9868 /* Givnite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283DF0E71CFBEF9A004C9868 /* Build configuration list for PBXNativeTarget "Givnite" */;
+			buildPhases = (
+				283DF0B11CFBEF99004C9868 /* Sources */,
+				283DF0B21CFBEF99004C9868 /* Frameworks */,
+				283DF0B31CFBEF99004C9868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Givnite;
+			productName = Givnite;
+			productReference = 283DF0B51CFBEF99004C9868 /* Givnite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		283DF0D51CFBEF9A004C9868 /* GivniteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 283DF0EA1CFBEF9A004C9868 /* Build configuration list for PBXNativeTarget "GivniteTests" */;
+			buildPhases = (
+				283DF0D21CFBEF9A004C9868 /* Sources */,
+				283DF0D31CFBEF9A004C9868 /* Frameworks */,
+				283DF0D41CFBEF9A004C9868 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				283DF0DC1CFBEF9A004C9868 /* PBXTargetDependency */,
+			);
+			name = GivniteTests;
+			productName = GivniteTests;
+			productReference = 283DF0D61CFBEF9A004C9868 /* GivniteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		283DF0AD1CFBEF99004C9868 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					283DF0D51CFBEF9A004C9868 = {
+						TestTargetID = 283DF0B41CFBEF99004C9868;
+					};
+				};
+			};
+			buildConfigurationList = 283DF0B01CFBEF99004C9868 /* Build configuration list for PBXProject "Givnite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 283DF0AC1CFBEF99004C9868;
+			productRefGroup = 283DF0B61CFBEF99004C9868 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				283DF0B41CFBEF99004C9868 /* Givnite */,
+				283DF0D51CFBEF9A004C9868 /* GivniteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		283DF0B31CFBEF99004C9868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DF0FB1CFC2DB3004C9868 /* Logo.png in Resources */,
+				283DF1001CFC3141004C9868 /* Group.png in Resources */,
+				283DF0FE1CFC3026004C9868 /* Rectangle_51.png in Resources */,
+				283DF0D11CFBEF9A004C9868 /* Images.xcassets in Resources */,
+				283DF1021CFC32CC004C9868 /* Group_2.png in Resources */,
+				283DF0C31CFBEF99004C9868 /* InfoPlist.strings in Resources */,
+				283DF1041CFC355A004C9868 /* Group_3.png in Resources */,
+				283DF0CC1CFBEF9A004C9868 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283DF0D41CFBEF9A004C9868 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DF0E21CFBEF9A004C9868 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		283DF0B11CFBEF99004C9868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DF1071CFCB84F004C9868 /* Home_VC.m in Sources */,
+				283DF0CF1CFBEF9A004C9868 /* ViewController.m in Sources */,
+				283DF0C91CFBEF99004C9868 /* AppDelegate.m in Sources */,
+				283DF0F91CFC2133004C9868 /* Sign_In_VC.m in Sources */,
+				283DF0C51CFBEF99004C9868 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		283DF0D21CFBEF9A004C9868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283DF0E41CFBEF9A004C9868 /* GivniteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		283DF0DC1CFBEF9A004C9868 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 283DF0B41CFBEF99004C9868 /* Givnite */;
+			targetProxy = 283DF0DB1CFBEF9A004C9868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		283DF0C11CFBEF99004C9868 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283DF0C21CFBEF99004C9868 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		283DF0CA1CFBEF9A004C9868 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283DF0CB1CFBEF9A004C9868 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		283DF0E01CFBEF9A004C9868 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				283DF0E11CFBEF9A004C9868 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		283DF0E51CFBEF9A004C9868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		283DF0E61CFBEF9A004C9868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		283DF0E81CFBEF9A004C9868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Givnite/Givnite-Prefix.pch";
+				INFOPLIST_FILE = "Givnite/Givnite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		283DF0E91CFBEF9A004C9868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Givnite/Givnite-Prefix.pch";
+				INFOPLIST_FILE = "Givnite/Givnite-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		283DF0EB1CFBEF9A004C9868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Givnite.app/Givnite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Givnite/Givnite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GivniteTests/GivniteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		283DF0EC1CFBEF9A004C9868 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Givnite.app/Givnite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Givnite/Givnite-Prefix.pch";
+				INFOPLIST_FILE = "GivniteTests/GivniteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		283DF0B01CFBEF99004C9868 /* Build configuration list for PBXProject "Givnite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283DF0E51CFBEF9A004C9868 /* Debug */,
+				283DF0E61CFBEF9A004C9868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		283DF0E71CFBEF9A004C9868 /* Build configuration list for PBXNativeTarget "Givnite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283DF0E81CFBEF9A004C9868 /* Debug */,
+				283DF0E91CFBEF9A004C9868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		283DF0EA1CFBEF9A004C9868 /* Build configuration list for PBXNativeTarget "GivniteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				283DF0EB1CFBEF9A004C9868 /* Debug */,
+				283DF0EC1CFBEF9A004C9868 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 283DF0AD1CFBEF99004C9868 /* Project object */;
+}
